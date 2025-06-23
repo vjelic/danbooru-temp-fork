@@ -1,0 +1,1801 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
+          "fullName": "Glog, Making software more secure",
+          "version": "1.0.0",
+          "semanticVersion": "1.0.0",
+          "informationUri": "https://www.glog.ai",
+          "rules": [
+            {
+              "id": "glog-82cd08f5-729a-41cd-aa26-505b0ff04760",
+              "name": "Execute/Command Injection",
+              "fullDescription": {
+                "text": "Finds instances of possible command injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0014"
+                ]
+              }
+            },
+            {
+              "id": "glog-9cea428f-66ac-4a49-8ac2-01656162f4a0",
+              "name": "Execute/Command Injection",
+              "fullDescription": {
+                "text": "Finds instances of possible command injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0014"
+                ]
+              }
+            },
+            {
+              "id": "glog-ab3793ff-b726-4074-9100-1cded101276c",
+              "name": "MassAssignment/Mass Assignment",
+              "fullDescription": {
+                "text": "Finds instances of mass assignment."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/mass_assignment/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/mass_assignment/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0070"
+                ]
+              }
+            },
+            {
+              "id": "glog-0d600e30-ad94-4eeb-a434-643069fc3878",
+              "name": "Execute/Command Injection",
+              "fullDescription": {
+                "text": "Finds instances of possible command injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0014"
+                ]
+              }
+            },
+            {
+              "id": "glog-ae45e96f-2509-4d2b-9aba-bff6a6471927",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-96ccf889-4f75-411d-8401-3d8e43a25c85",
+              "name": "MassAssignment/Mass Assignment",
+              "fullDescription": {
+                "text": "Finds instances of mass assignment."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/mass_assignment/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/mass_assignment/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0070"
+                ]
+              }
+            },
+            {
+              "id": "glog-9526a779-f415-41c2-8fc1-e150a1df54b8",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-4e882b0e-42eb-40f4-82b9-2fd6d3cce315",
+              "name": "RegexDoS/Denial of Service",
+              "fullDescription": {
+                "text": "Searches regexes including user input."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/denial_of_service/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/denial_of_service/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/denial_of_service/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0076"
+                ]
+              }
+            },
+            {
+              "id": "glog-a07d7107-3a4a-4457-af8b-9d5d7e75e6a3",
+              "name": "SendFile/File Access",
+              "fullDescription": {
+                "text": "Check for user input in uses of send_file."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/file_access/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/file_access/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/file_access/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0016"
+                ]
+              }
+            },
+            {
+              "id": "glog-1d7ef03b-ebaa-4aac-b470-0d42ca24e915",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-26d72b6d-bcb2-4dc5-a2c3-c5b9ca71642b",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-fe673e13-fc4c-4708-a865-deef602766e6",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-35eee2b7-b3d8-4f22-bee0-251f7df11270",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-64527a2d-7052-4d17-afe7-44b37fc6edb0",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-bd5a1987-e6f4-4814-8dba-819045842340",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-808bc9f0-e1bf-49bf-a8f7-0ec636562476",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-569babf4-f835-4199-a142-a0e7ad6de682",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-6d6b914e-5fb6-4dd5-a8d6-c6d3b3392ff1",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-72501bf8-6f34-480d-a267-247313e3d69c",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-cbcba5ac-63e8-4807-87f4-8b1dd9133dbc",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-d421ae00-37d9-4db6-be3a-fde85db681a5",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-fe12e094-bf22-4ee9-9457-ab3166cbc07d",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-35797cfa-a5c0-46b6-b42b-72376b35ea9e",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-17088e6b-f2ba-4ab0-9f08-f6e11c3289b9",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-8ac85577-11c1-4627-be0d-3148eab9a1bd",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-417e0ee4-c4fc-46ee-9533-02e5e616b605",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-8177ab5e-5f7f-4589-8b93-d1a1cd73cf1c",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-d6e03a47-43b7-4884-a6ac-fdb7c2907b0a",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-6c502779-d185-403b-aa7a-9647dd15e6e7",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-de571e49-e3be-4539-bc49-126a72768849",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-b3cef229-cf4a-4592-9956-01e3d6655521",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-a4ad924e-d91c-47e5-ad74-94207e303211",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-a710b428-7f44-4f85-a5b0-fed2eb25417d",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-26b72be8-04d6-44ef-81f4-584fe224a0f7",
+              "name": "CrossSiteScripting/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks for unescaped output in views."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0002"
+                ]
+              }
+            },
+            {
+              "id": "glog-0b48d665-4f30-4cd4-a7c3-d70c11d2d6bd",
+              "name": "CrossSiteScripting/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks for unescaped output in views."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0002"
+                ]
+              }
+            },
+            {
+              "id": "glog-98526c6d-93fb-4ccf-a993-a2375e7030a4",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-aa2801c9-e0ea-4140-9413-1344371b4c75",
+              "name": "LinkToHref/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks to see if values used for hrefs are sanitized using a :url_safe_method to protect against javascript:/data: XSS."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/link_to_href",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/link_to_href.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/link_to_href)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0004"
+                ]
+              }
+            },
+            {
+              "id": "glog-30c43207-bd1e-4edf-8ec9-9684bcd1ea34",
+              "name": "MassAssignment/Mass Assignment",
+              "fullDescription": {
+                "text": "Finds instances of mass assignment."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/mass_assignment/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/mass_assignment/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0070"
+                ]
+              }
+            },
+            {
+              "id": "glog-bf33969f-8475-435a-abe9-acb3a440bc03",
+              "name": "UnsafeReflection/Remote Code Execution",
+              "fullDescription": {
+                "text": "Checks for unsafe reflection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/remote_code_execution/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/remote_code_execution/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/remote_code_execution/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0024"
+                ]
+              }
+            },
+            {
+              "id": "glog-727620df-a8fa-406d-b100-ce8fa111bbae",
+              "name": "CrossSiteScripting/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks for unescaped output in views."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0002"
+                ]
+              }
+            },
+            {
+              "id": "glog-8c7e82b8-5886-491b-a675-3e87cb936aff",
+              "name": "MassAssignment/Mass Assignment",
+              "fullDescription": {
+                "text": "Finds instances of mass assignment."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/mass_assignment/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/mass_assignment/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0070"
+                ]
+              }
+            },
+            {
+              "id": "glog-f5c165e8-c78e-4003-a695-81079040af14",
+              "name": "ValidationRegex/Format Validation",
+              "fullDescription": {
+                "text": "Report uses of validates_format_of with improper anchors."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/format_validation/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/format_validation/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/format_validation/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0030"
+                ]
+              }
+            },
+            {
+              "id": "glog-f3515a0c-ee7c-4a57-99bb-fb8466cc1b85",
+              "name": "ValidationRegex/Format Validation",
+              "fullDescription": {
+                "text": "Report uses of validates_format_of with improper anchors."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/format_validation/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/format_validation/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/format_validation/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0030"
+                ]
+              }
+            },
+            {
+              "id": "glog-eb685e5a-271c-4388-986d-0bba43848ed2",
+              "name": "ValidationRegex/Format Validation",
+              "fullDescription": {
+                "text": "Report uses of validates_format_of with improper anchors."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/format_validation/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/format_validation/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/format_validation/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0030"
+                ]
+              }
+            },
+            {
+              "id": "glog-f584be03-f69a-4608-8daa-5a8c78be3d26",
+              "name": "ValidationRegex/Format Validation",
+              "fullDescription": {
+                "text": "Report uses of validates_format_of with improper anchors."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/format_validation/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/format_validation/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/format_validation/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0030"
+                ]
+              }
+            },
+            {
+              "id": "glog-9955989d-ed61-4409-adc7-2d3f709298ea",
+              "name": "ValidationRegex/Format Validation",
+              "fullDescription": {
+                "text": "Report uses of validates_format_of with improper anchors."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/format_validation/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/format_validation/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/format_validation/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0030"
+                ]
+              }
+            }
+          ],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        }
+      },
+      "language": "en-US",
+      "results": [
+        {
+          "ruleId": "glog-90d4d4b3-11a7-453c-9c65-3b467e5557d7",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible command injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/exif_tool.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-82cd08f5-729a-41cd-aa26-505b0ff04760",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible command injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/media_file/ugoira.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 352
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-9cea428f-66ac-4a49-8ac2-01656162f4a0",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible command injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/media_file/ugoira.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 355
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-ab3793ff-b726-4074-9100-1cded101276c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/components/paginator_component.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-0d600e30-ad94-4eeb-a434-643069fc3878",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible command injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/media_file/ugoira.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 358
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-ae45e96f-2509-4d2b-9aba-bff6a6471927",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/pool_versions_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-96ccf889-4f75-411d-8401-3d8e43a25c85",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/application_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 321
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-9526a779-f415-41c2-8fc1-e150a1df54b8",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/wiki_page_versions_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-4e882b0e-42eb-40f4-82b9-2fd6d3cce315",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Model attribute used in regular expression."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/bulk_update_request_processor.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-a07d7107-3a4a-4457-af8b-9d5d7e75e6a3",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Model attribute used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/media_assets_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-1d7ef03b-ebaa-4aac-b470-0d42ca24e915",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/rate_limit.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 77
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-26d72b6d-bcb2-4dc5-a2c3-c5b9ca71642b",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/helpers/artist_commentary_versions_helper.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-fe673e13-fc4c-4708-a865-deef602766e6",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/helpers/note_versions_helper.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-35eee2b7-b3d8-4f22-bee0-251f7df11270",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 99
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-64527a2d-7052-4d17-afe7-44b37fc6edb0",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 103
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-bd5a1987-e6f4-4814-8dba-819045842340",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/aggregatable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 59
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-808bc9f0-e1bf-49bf-a8f7-0ec636562476",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 122
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-569babf4-f835-4199-a142-a0e7ad6de682",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 131
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-6d6b914e-5fb6-4dd5-a8d6-c6d3b3392ff1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/post.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1040
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-72501bf8-6f34-480d-a267-247313e3d69c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 159
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-cbcba5ac-63e8-4807-87f4-8b1dd9133dbc",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 126
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-d421ae00-37d9-4db6-be3a-fde85db681a5",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 204
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-fe12e094-bf22-4ee9-9457-ab3166cbc07d",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 701
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-35797cfa-a5c0-46b6-b42b-72376b35ea9e",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/pool_versions_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 34
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-17088e6b-f2ba-4ab0-9f08-f6e11c3289b9",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 198
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-8ac85577-11c1-4627-be0d-3148eab9a1bd",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/users_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 140
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-417e0ee4-c4fc-46ee-9533-02e5e616b605",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 140
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-8177ab5e-5f7f-4589-8b93-d1a1cd73cf1c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 143
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-d6e03a47-43b7-4884-a6ac-fdb7c2907b0a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 139
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-6c502779-d185-403b-aa7a-9647dd15e6e7",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 154
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-de571e49-e3be-4539-bc49-126a72768849",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/session_loader.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 189
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-b3cef229-cf4a-4592-9956-01e3d6655521",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 160
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-a4ad924e-d91c-47e5-ad74-94207e303211",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 150
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-a710b428-7f44-4f85-a5b0-fed2eb25417d",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/explain_parser.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-26b72be8-04d6-44ef-81f4-584fe224a0f7",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Unescaped model attribute."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/forum_topics/index.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-0b48d665-4f30-4cd4-a7c3-d70c11d2d6bd",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Unescaped model attribute."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/totp/edit.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-98526c6d-93fb-4ccf-a993-a2375e7030a4",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/post_versions_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 36
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-aa2801c9-e0ea-4140-9413-1344371b4c75",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Unsafe parameter value in `link_to` href."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/backup_codes/index.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 46
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-30c43207-bd1e-4edf-8ec9-9684bcd1ea34",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/comments/index.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-bf33969f-8475-435a-abe9-acb3a440bc03",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Unsafe reflection method `const_get` called with parameter value."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/searchable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 689
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-727620df-a8fa-406d-b100-ce8fa111bbae",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Unescaped model attribute."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/user_name_change_requests/new.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-8c7e82b8-5886-491b-a675-3e87cb936aff",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/forum_topics/index.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-f5c165e8-c78e-4003-a695-81079040af14",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `source` using `/\\Ahttps?:\\/\\//i`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/upload.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-f3515a0c-ee7c-4a57-99bb-fb8466cc1b85",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `referer_url` using `/\\Ahttps?:\\/\\//i`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/upload.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-eb685e5a-271c-4388-986d-0bba43848ed2",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `address` using `/^[a-zA-Z0-9._+-]*[a-zA-Z0-9_+-]@([a-zA-Z0-9][a-zA-Z0-9-]{0,61}\\.)+[a-zA-Z]{2,}$/`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/email_address.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 9
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-f584be03-f69a-4608-8daa-5a8c78be3d26",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `source_url` using `/\\A(https?|file):\\/\\//i`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/upload_media_asset.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-9955989d-ed61-4409-adc7-2d3f709298ea",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `page_url` using `/\\A(https?):\\/\\//i`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/upload_media_asset.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ]
+    }
+  ]
+}
