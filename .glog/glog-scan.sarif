@@ -12,7 +12,7 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "glog-82cd08f5-729a-41cd-aa26-505b0ff04760",
+              "id": "glog-4d6548dd-adbc-48c0-88d5-88cb32656074",
               "name": "Execute/Command Injection",
               "fullDescription": {
                 "text": "Finds instances of possible command injection."
@@ -29,7 +29,7 @@
               }
             },
             {
-              "id": "glog-9cea428f-66ac-4a49-8ac2-01656162f4a0",
+              "id": "glog-8b0ac331-7fa3-408a-9d44-695d20387f88",
               "name": "Execute/Command Injection",
               "fullDescription": {
                 "text": "Finds instances of possible command injection."
@@ -46,7 +46,58 @@
               }
             },
             {
-              "id": "glog-ab3793ff-b726-4074-9100-1cded101276c",
+              "id": "glog-3a9b7a0b-96dc-4248-b8e6-ff1a60fffab0",
+              "name": "Execute/Command Injection",
+              "fullDescription": {
+                "text": "Finds instances of possible command injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0014"
+                ]
+              }
+            },
+            {
+              "id": "glog-81df32ff-eac9-429a-b0d7-17845e20eb71",
+              "name": "Execute/Command Injection",
+              "fullDescription": {
+                "text": "Finds instances of possible command injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0014"
+                ]
+              }
+            },
+            {
+              "id": "glog-1789d541-776d-4f51-bfc4-c8ec1f0437f3",
+              "name": "Execute/Command Injection",
+              "fullDescription": {
+                "text": "Finds instances of possible command injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0014"
+                ]
+              }
+            },
+            {
+              "id": "glog-f3f92dff-8006-4eb5-8f90-f4af0436bf9a",
               "name": "MassAssignment/Mass Assignment",
               "fullDescription": {
                 "text": "Finds instances of mass assignment."
@@ -63,41 +114,7 @@
               }
             },
             {
-              "id": "glog-0d600e30-ad94-4eeb-a434-643069fc3878",
-              "name": "Execute/Command Injection",
-              "fullDescription": {
-                "text": "Finds instances of possible command injection."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/command_injection/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/command_injection/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/command_injection/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0014"
-                ]
-              }
-            },
-            {
-              "id": "glog-ae45e96f-2509-4d2b-9aba-bff6a6471927",
-              "name": "Send/Dangerous Send",
-              "fullDescription": {
-                "text": "Check for unsafe use of Object#send."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0023"
-                ]
-              }
-            },
-            {
-              "id": "glog-96ccf889-4f75-411d-8401-3d8e43a25c85",
+              "id": "glog-5cd840ee-21eb-4686-8336-4f827e323fd4",
               "name": "MassAssignment/Mass Assignment",
               "fullDescription": {
                 "text": "Finds instances of mass assignment."
@@ -114,7 +131,7 @@
               }
             },
             {
-              "id": "glog-9526a779-f415-41c2-8fc1-e150a1df54b8",
+              "id": "glog-1ecc9cc7-dee1-420e-9378-28fb87cf189d",
               "name": "Send/Dangerous Send",
               "fullDescription": {
                 "text": "Check for unsafe use of Object#send."
@@ -131,7 +148,58 @@
               }
             },
             {
-              "id": "glog-4e882b0e-42eb-40f4-82b9-2fd6d3cce315",
+              "id": "glog-9be08e90-7925-498b-bea9-b05dcbd53ece",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-e4ab1be3-0f0d-4ee1-a669-e16a35478328",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-c7d43886-7a2b-4282-a879-dea2b91b9135",
+              "name": "Send/Dangerous Send",
+              "fullDescription": {
+                "text": "Check for unsafe use of Object#send."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0023"
+                ]
+              }
+            },
+            {
+              "id": "glog-9993c4c3-eeec-460c-ab78-1b39a3e534e7",
               "name": "RegexDoS/Denial of Service",
               "fullDescription": {
                 "text": "Searches regexes including user input."
@@ -148,7 +216,58 @@
               }
             },
             {
-              "id": "glog-a07d7107-3a4a-4457-af8b-9d5d7e75e6a3",
+              "id": "glog-02f933e7-88b9-4710-9a5c-c638ae789a54",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-6a0fa0b1-0840-437d-b32f-3629233c6271",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-81533052-cb4f-41c3-8f9c-a0bc2651ee7d",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-7ce257dc-8187-4599-9e30-2796ac8ebbbb",
               "name": "SendFile/File Access",
               "fullDescription": {
                 "text": "Check for user input in uses of send_file."
@@ -165,7 +284,7 @@
               }
             },
             {
-              "id": "glog-1d7ef03b-ebaa-4aac-b470-0d42ca24e915",
+              "id": "glog-7933c680-77c9-489a-9e1b-e49abc6ed168",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -182,41 +301,7 @@
               }
             },
             {
-              "id": "glog-26d72b6d-bcb2-4dc5-a2c3-c5b9ca71642b",
-              "name": "Send/Dangerous Send",
-              "fullDescription": {
-                "text": "Check for unsafe use of Object#send."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0023"
-                ]
-              }
-            },
-            {
-              "id": "glog-fe673e13-fc4c-4708-a865-deef602766e6",
-              "name": "Send/Dangerous Send",
-              "fullDescription": {
-                "text": "Check for unsafe use of Object#send."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/dangerous_send/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/dangerous_send/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/dangerous_send/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0023"
-                ]
-              }
-            },
-            {
-              "id": "glog-35eee2b7-b3d8-4f22-bee0-251f7df11270",
+              "id": "glog-9d6a7e7f-1e19-4bb4-9954-1c071e14c93b",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -233,7 +318,7 @@
               }
             },
             {
-              "id": "glog-64527a2d-7052-4d17-afe7-44b37fc6edb0",
+              "id": "glog-9654192f-1cf1-452a-90e3-7db56d27a4ac",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -250,7 +335,7 @@
               }
             },
             {
-              "id": "glog-bd5a1987-e6f4-4814-8dba-819045842340",
+              "id": "glog-cf26c869-bd49-413b-9590-ea3f2a1e3360",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -267,7 +352,7 @@
               }
             },
             {
-              "id": "glog-808bc9f0-e1bf-49bf-a8f7-0ec636562476",
+              "id": "glog-819cb450-bf4e-4571-bd83-21286e6015cd",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -284,7 +369,7 @@
               }
             },
             {
-              "id": "glog-569babf4-f835-4199-a142-a0e7ad6de682",
+              "id": "glog-578e5e24-4826-4203-a267-837ecded0be5",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -301,7 +386,7 @@
               }
             },
             {
-              "id": "glog-6d6b914e-5fb6-4dd5-a8d6-c6d3b3392ff1",
+              "id": "glog-3762fe23-28df-41f0-b13d-cc3556306eb0",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -318,7 +403,7 @@
               }
             },
             {
-              "id": "glog-72501bf8-6f34-480d-a267-247313e3d69c",
+              "id": "glog-e8c8c7a1-d396-4c69-b015-ecf1bac60108",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -335,7 +420,7 @@
               }
             },
             {
-              "id": "glog-cbcba5ac-63e8-4807-87f4-8b1dd9133dbc",
+              "id": "glog-1748dddd-b05c-416f-a244-365e92993e95",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -352,7 +437,7 @@
               }
             },
             {
-              "id": "glog-d421ae00-37d9-4db6-be3a-fde85db681a5",
+              "id": "glog-275ed18f-85a1-4680-ae6a-0bed614ef7dc",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -369,7 +454,7 @@
               }
             },
             {
-              "id": "glog-fe12e094-bf22-4ee9-9457-ab3166cbc07d",
+              "id": "glog-1f168057-d072-4a65-8d7b-c0cf1eff0955",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -386,7 +471,7 @@
               }
             },
             {
-              "id": "glog-35797cfa-a5c0-46b6-b42b-72376b35ea9e",
+              "id": "glog-594d80fe-87b2-4e3a-b459-a39a50d8618a",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -403,7 +488,7 @@
               }
             },
             {
-              "id": "glog-17088e6b-f2ba-4ab0-9f08-f6e11c3289b9",
+              "id": "glog-8295ef45-69d6-4adb-a7d6-6e92c62a6ec7",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -420,7 +505,7 @@
               }
             },
             {
-              "id": "glog-8ac85577-11c1-4627-be0d-3148eab9a1bd",
+              "id": "glog-c90fbbc4-4213-406a-ba2d-7dc5582d4108",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -437,7 +522,7 @@
               }
             },
             {
-              "id": "glog-417e0ee4-c4fc-46ee-9533-02e5e616b605",
+              "id": "glog-96b426c4-6e6e-4fa0-bd08-a451258d932b",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -454,7 +539,7 @@
               }
             },
             {
-              "id": "glog-8177ab5e-5f7f-4589-8b93-d1a1cd73cf1c",
+              "id": "glog-99c937ed-7d72-4e6d-a1c8-98bc32d5e043",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -471,7 +556,7 @@
               }
             },
             {
-              "id": "glog-d6e03a47-43b7-4884-a6ac-fdb7c2907b0a",
+              "id": "glog-eac60399-68c9-45f9-8a17-b08440acc5a7",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -488,7 +573,7 @@
               }
             },
             {
-              "id": "glog-6c502779-d185-403b-aa7a-9647dd15e6e7",
+              "id": "glog-2aad3b10-93e0-4af3-a348-4571b48ac254",
               "name": "SQL/SQL Injection",
               "fullDescription": {
                 "text": "Check for SQL injection."
@@ -505,160 +590,7 @@
               }
             },
             {
-              "id": "glog-de571e49-e3be-4539-bc49-126a72768849",
-              "name": "SQL/SQL Injection",
-              "fullDescription": {
-                "text": "Check for SQL injection."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0000"
-                ]
-              }
-            },
-            {
-              "id": "glog-b3cef229-cf4a-4592-9956-01e3d6655521",
-              "name": "SQL/SQL Injection",
-              "fullDescription": {
-                "text": "Check for SQL injection."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0000"
-                ]
-              }
-            },
-            {
-              "id": "glog-a4ad924e-d91c-47e5-ad74-94207e303211",
-              "name": "SQL/SQL Injection",
-              "fullDescription": {
-                "text": "Check for SQL injection."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0000"
-                ]
-              }
-            },
-            {
-              "id": "glog-a710b428-7f44-4f85-a5b0-fed2eb25417d",
-              "name": "SQL/SQL Injection",
-              "fullDescription": {
-                "text": "Check for SQL injection."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0000"
-                ]
-              }
-            },
-            {
-              "id": "glog-26b72be8-04d6-44ef-81f4-584fe224a0f7",
-              "name": "CrossSiteScripting/Cross-Site Scripting",
-              "fullDescription": {
-                "text": "Checks for unescaped output in views."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0002"
-                ]
-              }
-            },
-            {
-              "id": "glog-0b48d665-4f30-4cd4-a7c3-d70c11d2d6bd",
-              "name": "CrossSiteScripting/Cross-Site Scripting",
-              "fullDescription": {
-                "text": "Checks for unescaped output in views."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0002"
-                ]
-              }
-            },
-            {
-              "id": "glog-98526c6d-93fb-4ccf-a993-a2375e7030a4",
-              "name": "SQL/SQL Injection",
-              "fullDescription": {
-                "text": "Check for SQL injection."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0000"
-                ]
-              }
-            },
-            {
-              "id": "glog-aa2801c9-e0ea-4140-9413-1344371b4c75",
-              "name": "LinkToHref/Cross-Site Scripting",
-              "fullDescription": {
-                "text": "Checks to see if values used for hrefs are sanitized using a :url_safe_method to protect against javascript:/data: XSS."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/link_to_href",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/link_to_href.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/link_to_href)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0004"
-                ]
-              }
-            },
-            {
-              "id": "glog-30c43207-bd1e-4edf-8ec9-9684bcd1ea34",
-              "name": "MassAssignment/Mass Assignment",
-              "fullDescription": {
-                "text": "Finds instances of mass assignment."
-              },
-              "helpUri": "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
-              "help": {
-                "text": "More info: https://brakemanscanner.org/docs/warning_types/mass_assignment/.",
-                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/mass_assignment/)."
-              },
-              "properties": {
-                "tags": [
-                  "BRAKE0070"
-                ]
-              }
-            },
-            {
-              "id": "glog-bf33969f-8475-435a-abe9-acb3a440bc03",
+              "id": "glog-68dc126c-40a7-42a2-a36b-57d0d0fa98fd",
               "name": "UnsafeReflection/Remote Code Execution",
               "fullDescription": {
                 "text": "Checks for unsafe reflection."
@@ -675,7 +607,7 @@
               }
             },
             {
-              "id": "glog-727620df-a8fa-406d-b100-ce8fa111bbae",
+              "id": "glog-c3b89239-c50d-4ad8-9baa-b472879de1e1",
               "name": "CrossSiteScripting/Cross-Site Scripting",
               "fullDescription": {
                 "text": "Checks for unescaped output in views."
@@ -692,7 +624,41 @@
               }
             },
             {
-              "id": "glog-8c7e82b8-5886-491b-a675-3e87cb936aff",
+              "id": "glog-dc86c7ef-7703-4ab8-80d1-c3d33ee0400f",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-1809ab9d-7789-443e-a9e0-fc18dbd63c83",
+              "name": "SQL/SQL Injection",
+              "fullDescription": {
+                "text": "Check for SQL injection."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/sql_injection/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/sql_injection/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0000"
+                ]
+              }
+            },
+            {
+              "id": "glog-b6856e80-8547-4e8d-ae08-4abec4fdfc12",
               "name": "MassAssignment/Mass Assignment",
               "fullDescription": {
                 "text": "Finds instances of mass assignment."
@@ -709,7 +675,58 @@
               }
             },
             {
-              "id": "glog-f5c165e8-c78e-4003-a695-81079040af14",
+              "id": "glog-b3e6df62-33d3-40ee-98bc-4a8b71cfb82c",
+              "name": "CrossSiteScripting/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks for unescaped output in views."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0002"
+                ]
+              }
+            },
+            {
+              "id": "glog-60ca3145-7047-45d4-a4db-c1083bfe3f78",
+              "name": "LinkToHref/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks to see if values used for hrefs are sanitized using a :url_safe_method to protect against javascript:/data: XSS."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/link_to_href",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/link_to_href.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/link_to_href)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0004"
+                ]
+              }
+            },
+            {
+              "id": "glog-6f8221ad-d231-4207-9aa1-85cf12e10547",
+              "name": "CrossSiteScripting/Cross-Site Scripting",
+              "fullDescription": {
+                "text": "Checks for unescaped output in views."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/cross_site_scripting.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/cross_site_scripting)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0002"
+                ]
+              }
+            },
+            {
+              "id": "glog-87d838f2-6743-4752-be3d-29e3f37a5f5d",
               "name": "ValidationRegex/Format Validation",
               "fullDescription": {
                 "text": "Report uses of validates_format_of with improper anchors."
@@ -726,7 +743,7 @@
               }
             },
             {
-              "id": "glog-f3515a0c-ee7c-4a57-99bb-fb8466cc1b85",
+              "id": "glog-dc0523ef-c0fc-475e-8bc5-859b7e2ec886",
               "name": "ValidationRegex/Format Validation",
               "fullDescription": {
                 "text": "Report uses of validates_format_of with improper anchors."
@@ -743,7 +760,7 @@
               }
             },
             {
-              "id": "glog-eb685e5a-271c-4388-986d-0bba43848ed2",
+              "id": "glog-f1101eb0-9404-45a9-ae18-998840b658a4",
               "name": "ValidationRegex/Format Validation",
               "fullDescription": {
                 "text": "Report uses of validates_format_of with improper anchors."
@@ -760,7 +777,7 @@
               }
             },
             {
-              "id": "glog-f584be03-f69a-4608-8daa-5a8c78be3d26",
+              "id": "glog-92a58b33-d5ac-417a-bc07-aa6855b41a7c",
               "name": "ValidationRegex/Format Validation",
               "fullDescription": {
                 "text": "Report uses of validates_format_of with improper anchors."
@@ -777,7 +794,7 @@
               }
             },
             {
-              "id": "glog-9955989d-ed61-4409-adc7-2d3f709298ea",
+              "id": "glog-be729087-f037-4ab3-bf79-441ec12b0332",
               "name": "ValidationRegex/Format Validation",
               "fullDescription": {
                 "text": "Report uses of validates_format_of with improper anchors."
@@ -790,6 +807,383 @@
               "properties": {
                 "tags": [
                   "BRAKE0030"
+                ]
+              }
+            },
+            {
+              "id": "glog-d08df9eb-8593-4e51-b0da-7232ca8edcfe",
+              "name": "MassAssignment/Mass Assignment",
+              "fullDescription": {
+                "text": "Finds instances of mass assignment."
+              },
+              "helpUri": "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
+              "help": {
+                "text": "More info: https://brakemanscanner.org/docs/warning_types/mass_assignment/.",
+                "markdown": "[More info](https://brakemanscanner.org/docs/warning_types/mass_assignment/)."
+              },
+              "properties": {
+                "tags": [
+                  "BRAKE0070"
+                ]
+              }
+            },
+            {
+              "id": "glog-25634328-aaae-4a4a-82ba-1868cd70c888",
+              "help": {
+                "text": "",
+                "markdown": "### Description\r\nCVE-2025-5889 is a vulnerability identified in the `brace-expansion` package version 1.1.11, which is commonly used in the npm ecosystem. This vulnerability arises from improper input validation, leading to a potential Regular Expression Denial of Service (ReDoS) attack. An attacker can exploit this vulnerability by providing specially crafted input that causes the regular expression engine to consume excessive CPU resources, leading to a denial of service.\r\n\r\n### General Mitigation Advice\r\n1. **Upgrade the Package**: The primary mitigation strategy is to upgrade `brace-expansion` to a version where this vulnerability is patched. Check the package repository or advisories for the latest secure version.\r\n2. **Input Validation**: Implement strict input validation to ensure that only expected patterns are processed by the application.\r\n3. **Rate Limiting**: Implement rate limiting to reduce the impact of potential denial of service attacks.\r\n4. **Monitoring and Alerts**: Set up monitoring and alerting to detect unusual patterns of resource consumption.\r\n\r\n### Source Code Fix Recommendation\r\nTo address this vulnerability, the regular expression used in the `brace-expansion` package should be optimized to prevent excessive backtracking. Consider using non-capturing groups and atomic groups where applicable to improve performance and reduce the risk of ReDoS.\r\n\r\n```javascript\r\n// Example of a potential fix in the source code\r\n// Original vulnerable regex\r\nconst regex = /some(vulnerable|regex)/;\r\n\r\n// Optimized regex to prevent ReDoS\r\nconst optimizedRegex = /some(?:vulnerable|regex)/;\r\n```\r\n\r\n### Relevant OWASP Resources\r\n- [OWASP Top Ten: A10 - Denial of Service](https://owasp.org/www-project-top-ten/)\r\n\r\n### Common Weakness Enumeration (CWE)\r\n- [CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')](https://cwe.mitre.org/data/definitions/400.html)"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2025-5889/pkg:npm/brace-expansion@1.1.11"
+                ]
+              }
+            },
+            {
+              "id": "glog-e8e9ce2b-0b8b-488f-aa52-dedc837a7fd2",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2024-31228 is a vulnerability identified in the `oci/redis@latest` package, which is part of the OSS programming language ecosystem. This vulnerability arises from improper input validation in the Redis command execution module, allowing an attacker to execute arbitrary commands on the Redis server. This can lead to unauthorized data access, data corruption, or denial of service.\n\n### General Mitigation Advice\n1. **Input Validation**: Ensure that all inputs to the Redis command execution module are properly validated and sanitized to prevent injection attacks.\n2. **Access Controls**: Implement strict access controls to limit who can send commands to the Redis server.\n3. **Update Package**: Regularly update the `oci/redis` package to the latest version where the vulnerability is patched.\n4. **Network Security**: Use network security measures such as firewalls and VPNs to restrict access to the Redis server.\n\n### Source Code Fix Recommendation\nTo mitigate this vulnerability, consider implementing the following code changes:\n\n```go\n// Example of input validation in Go\nfunc executeRedisCommand(command string) error {\n    // Validate command input\n    if !isValidCommand(command) {\n        return errors.New(\"invalid command\")\n    }\n    // Proceed with command execution\n    // ...\n    return nil\n}\n\nfunc isValidCommand(command string) bool {\n    // Implement validation logic, e.g., regex matching\n    validCommands := []string{\"GET\", \"SET\", \"DEL\"}\n    for _, validCommand := range validCommands {\n        if command == validCommand {\n            return true\n        }\n    }\n    return false\n}\n```\n\n### OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2024-31228/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-84574e3f-842b-4e26-a585-0b294bb9ea53",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\n**CVE-2021-41099** is a vulnerability identified in the `oci/redis@latest` package, which is part of the Open Source Software (OSS) ecosystem. This vulnerability arises due to improper input validation, which can lead to potential security risks such as unauthorized access or data manipulation. The flaw allows attackers to exploit the system by sending specially crafted requests that bypass security controls.\n\n### General Mitigation Advice\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n2. **Input Validation**: Implement strict input validation to ensure that all incoming data is sanitized and validated before processing.\n3. **Access Controls**: Review and tighten access controls to limit exposure to potential attackers.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities that may indicate an attempted exploit.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, consider implementing the following code changes:\n\n```go\n// Example of input validation in Go\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\n// Usage in your application\nfunc processRequest(input string) error {\n    if err := validateInput(input); err != nil {\n        return err\n    }\n    // Proceed with processing the validated input\n    return nil\n}\n```\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-41099/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-4dce75c2-ce1d-4600-ba10-07543bbf3ec4",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2023-41056 is a vulnerability identified in the `oci/redis@latest` package, which is part of the OSS programming language ecosystem. This vulnerability arises from improper input validation in the Redis client implementation, potentially allowing an attacker to execute arbitrary commands on the Redis server. The issue is particularly critical in environments where the Redis server is exposed to untrusted networks or where the client application processes untrusted input.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch addressing this vulnerability.\n2. **Network Segmentation**: Restrict access to the Redis server by implementing network segmentation and firewall rules to limit exposure to trusted networks only.\n3. **Input Validation**: Implement robust input validation and sanitization to prevent malicious input from reaching the Redis client.\n4. **Use Authentication**: Enable Redis authentication to add an additional layer of security.\n5. **Monitor and Log**: Regularly monitor and log access to the Redis server to detect any suspicious activities.\n\n### Source Code Fix Recommendation\nReview the code interacting with the Redis client to ensure that all inputs are properly validated and sanitized. Consider using parameterized queries or prepared statements if applicable. Here is a general example of how you might improve input handling:\n\n```go\n// Example of input validation in Go\nfunc safeRedisCommand(client *redis.Client, command string, args ...interface{}) error {\n    // Validate command and arguments\n    if !isValidCommand(command) {\n        return fmt.Errorf(\"invalid command\")\n    }\n    for _, arg := range args {\n        if !isValidArg(arg) {\n            return fmt.Errorf(\"invalid argument: %v\", arg)\n        }\n    }\n    // Execute the command\n    return client.Do(context.Background(), command, args...).Err()\n}\n\nfunc isValidCommand(cmd string) bool {\n    // Implement command validation logic\n    return true\n}\n\nfunc isValidArg(arg interface{}) bool {\n    // Implement argument validation logic\n    return true\n}\n```\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2023-41056/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-508d7be6-d745-4626-a5fd-b7d59703a172",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\nThe vulnerability identified as CVE-2022-35977 affects the `oci/redis@latest` package in the OSS programming language. This vulnerability arises from improper input validation, which can lead to potential unauthorized access or data manipulation. The flaw allows attackers to exploit the system by sending specially crafted requests that bypass authentication mechanisms or execute arbitrary commands.\n\n### General Mitigation Advice\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n2. **Input Validation**: Implement strict input validation to ensure that all incoming data is sanitized and validated before processing.\n3. **Access Controls**: Strengthen access controls and authentication mechanisms to prevent unauthorized access.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any suspicious activities or attempts to exploit the vulnerability.\n5. **Network Segmentation**: Isolate critical components of your application to limit the potential impact of an exploit.\n\n### Source Code Fix Recommendation\n\nReview the code handling input data and ensure that all inputs are properly validated and sanitized. Consider using parameterized queries or prepared statements to prevent injection attacks. Additionally, review authentication and authorization logic to ensure it is robust against bypass attempts.\n\n### Relevant OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n- [CWE-287: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)\n\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-35977/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-01970c8f-2766-42d3-94bb-426484545ebb",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\n**Vulnerability CVE-2023-25155** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is a result of improper input validation, which can lead to unauthorized access or data manipulation. An attacker could exploit this vulnerability by sending specially crafted requests to the Redis server, potentially leading to data corruption or unauthorized data access.\n\n### General Mitigation Advice\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch to address this vulnerability.\n2. **Input Validation**: Implement strict input validation on all data inputs to the Redis server to prevent malicious data from being processed.\n3. **Access Controls**: Restrict access to the Redis server to only trusted networks and users. Use authentication mechanisms to ensure that only authorized users can access the server.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities or access patterns that may indicate an attempted exploitation of the vulnerability.\n\n### Source Code Fix Recommendation\n\nReview the code handling input data to the Redis server and ensure that all inputs are properly sanitized and validated. Consider using parameterized queries or prepared statements to prevent injection attacks. Here is a general example of how you might improve input handling:\n\n```go\n// Example of input validation in Go\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\nfunc processData(input string) error {\n    if err := validateInput(input); err != nil {\n        return err\n    }\n    // Proceed with processing the validated input\n    return nil\n}\n```\n\n### Relevant OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2023-25155/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-191ccf1b-bdec-46b5-a6c2-f0327a79ea91",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2024-31449 is a vulnerability identified in the `oci/redis@latest` package, which is part of the OSS programming language ecosystem. This vulnerability arises from improper input validation in the Redis command execution module, allowing an attacker to execute arbitrary commands on the Redis server. This can lead to unauthorized data access, data corruption, or denial of service.\n\n### General Mitigation Advice\n1. **Input Validation**: Ensure that all inputs to Redis commands are properly validated and sanitized to prevent injection attacks.\n2. **Access Controls**: Implement strict access controls to limit who can send commands to the Redis server.\n3. **Update Package**: Regularly update the `oci/redis` package to the latest version where the vulnerability is patched.\n4. **Network Security**: Use firewalls and network segmentation to restrict access to the Redis server.\n\n### Source Code Fix Recommendation\nTo mitigate this vulnerability, consider implementing the following code changes:\n\n```go\n// Example of input validation before executing Redis commands\nfunc executeRedisCommand(command string, args ...interface{}) error {\n    // Validate command and arguments\n    if !isValidCommand(command) || !areValidArgs(args) {\n        return errors.New(\"invalid command or arguments\")\n    }\n\n    // Proceed with executing the command\n    // ...\n}\n\nfunc isValidCommand(command string) bool {\n    // Implement command validation logic\n    // Example: check against a whitelist of allowed commands\n    allowedCommands := []string{\"GET\", \"SET\", \"DEL\"}\n    for _, allowed := range allowedCommands {\n        if command == allowed {\n            return true\n        }\n    }\n    return false\n}\n\nfunc areValidArgs(args []interface{}) bool {\n    // Implement argument validation logic\n    // Example: ensure no argument contains malicious patterns\n    for _, arg := range args {\n        if containsMaliciousPattern(arg) {\n            return false\n        }\n    }\n    return true\n}\n\nfunc containsMaliciousPattern(arg interface{}) bool {\n    // Implement pattern checking logic\n    // ...\n    return false\n}\n```\n\n### OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2024-31449/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-00d89cd2-605f-4a9e-ad21-963619996bba",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2023-22458 is a vulnerability identified in the `oci/redis@latest` package, which is part of the OSS programming language ecosystem. This vulnerability arises from improper input validation in the Redis command execution functionality, potentially allowing an attacker to execute arbitrary commands on the Redis server. This can lead to unauthorized data access, data corruption, or denial of service.\n\n### General Mitigation Advice\n1. **Input Validation**: Ensure that all inputs to Redis commands are properly validated and sanitized to prevent injection attacks.\n2. **Access Controls**: Implement strict access controls to limit who can send commands to the Redis server.\n3. **Update Package**: Regularly update the `oci/redis` package to the latest version where the vulnerability is patched.\n4. **Network Security**: Use network security measures such as firewalls and VPNs to restrict access to the Redis server.\n\n### Source Code Fix Recommendation\nTo mitigate this vulnerability, consider implementing the following code changes:\n\n```go\n// Example of input validation before executing Redis commands\nfunc executeRedisCommand(command string, args ...interface{}) error {\n    // Validate command and arguments\n    if !isValidCommand(command) {\n        return fmt.Errorf(\"invalid command\")\n    }\n    for _, arg := range args {\n        if !isValidArgument(arg) {\n            return fmt.Errorf(\"invalid argument: %v\", arg)\n        }\n    }\n    // Proceed with executing the command\n    // ...\n    return nil\n}\n\nfunc isValidCommand(command string) bool {\n    // Implement command validation logic\n    return true\n}\n\nfunc isValidArgument(arg interface{}) bool {\n    // Implement argument validation logic\n    return true\n}\n```\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2023-22458/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-27c68dd1-e734-44aa-9416-2bd02414d53b",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2023-28856 is a vulnerability identified in the `oci/redis` package, specifically affecting the latest version at the time of discovery. This vulnerability arises from improper input validation, which can lead to unauthorized access or manipulation of data within the Redis database. The issue is particularly concerning in environments where Redis is exposed to untrusted networks or users, as it could allow attackers to execute arbitrary commands or access sensitive information.\n\n### General Mitigation Advice\n1. **Update Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch addressing this vulnerability.\n2. **Network Segmentation**: Restrict access to the Redis server by implementing network segmentation. Only allow trusted hosts to communicate with the Redis instance.\n3. **Authentication**: Enable Redis authentication to add an additional layer of security. Use strong, complex passwords.\n4. **Input Validation**: Implement strict input validation on all data being sent to the Redis server to prevent injection attacks.\n5. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unauthorized access attempts or unusual activities.\n\n### Source Code Fix Recommendation\nReview the code handling input to the Redis server and ensure that all inputs are properly sanitized and validated. Consider using parameterized queries or prepared statements to prevent injection vulnerabilities. Additionally, review any configuration files for insecure settings and update them accordingly.\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2023-28856/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-2e90081b-3007-4cee-bbf9-5c7660856361",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nThe vulnerability identified as CVE-2022-24736 affects the `oci/redis` package in the OSS programming language. This vulnerability arises from improper input validation, which can lead to unauthorized access or manipulation of data. Specifically, the flaw allows attackers to exploit the package by sending specially crafted requests that bypass authentication mechanisms, potentially leading to data exposure or corruption.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n2. **Input Validation**: Implement robust input validation to ensure that all incoming data is sanitized and verified before processing.\n3. **Access Controls**: Strengthen access controls to limit the exposure of sensitive endpoints and data.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect and respond to suspicious activities promptly.\n\n### Source Code Fix Recommendation\nTo address this vulnerability, consider the following code changes:\n\n```go\n// Example of input validation\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\n// Usage in the application\nfunc processRequest(input string) error {\n    if err := validateInput(input); err != nil {\n        return err\n    }\n    // Proceed with processing the request\n    return nil\n}\n```\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-24736/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-65e57cad-7ea5-443b-b25a-2c1cfd4a71a4",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\nThe vulnerability identified as **CVE-2019-10192** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is a result of improper input validation, which can lead to unauthorized access or execution of arbitrary commands. The flaw arises when user inputs are not adequately sanitized, allowing attackers to inject malicious commands or data that the application processes without proper validation.\n\n### General Mitigation Advice\n\n1. **Input Validation**: Ensure that all user inputs are validated and sanitized. Use whitelisting techniques to allow only expected input formats and reject anything else.\n2. **Least Privilege**: Run applications with the least privileges necessary to limit the potential impact of an exploit.\n3. **Regular Updates**: Keep your dependencies and packages up to date to incorporate security patches and improvements.\n4. **Security Testing**: Implement regular security testing, including static and dynamic analysis, to identify and address vulnerabilities early in the development lifecycle.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, review the code handling user inputs and ensure proper validation and sanitization. For example, if the vulnerability is due to command injection, consider using parameterized queries or prepared statements to prevent malicious input from being executed.\n\n```python\n# Example of input validation in Python\ndef safe_input(user_input):\n    # Allow only alphanumeric characters\n    if not user_input.isalnum():\n        raise ValueError(\"Invalid input\")\n    return user_input\n\n# Usage\ntry:\n    user_input = safe_input(input(\"Enter your input: \"))\n    # Proceed with safe input\nexcept ValueError as e:\n    print(e)\n```\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\nThis vulnerability is closely related to [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html).\n\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2019-10192/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-2134d96f-aebb-42f6-8a89-9d406ec8be6d",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\nCVE-2021-32687 is a vulnerability identified in the `oci/redis` package, specifically affecting the latest version at the time of discovery. This vulnerability arises from improper input validation, which can lead to unauthorized access or manipulation of data within the Redis database. The issue is particularly concerning as it may allow attackers to execute arbitrary commands or access sensitive information without proper authentication.\n\n### Mitigation Advice\n\nTo mitigate this vulnerability, consider the following steps:\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch addressing this vulnerability.\n2. **Input Validation**: Implement strict input validation to ensure that all data being processed by the application is sanitized and validated.\n3. **Access Controls**: Strengthen access controls to limit who can interact with the Redis instance and what operations they can perform.\n4. **Network Security**: Use network security measures such as firewalls and VPNs to restrict access to the Redis server.\n5. **Monitoring and Logging**: Implement comprehensive logging and monitoring to detect any unauthorized access attempts or unusual activities.\n\n### Source Code Fix Recommendation\n\nReview the code handling input to the Redis instance and ensure that all inputs are properly validated and sanitized. For example, if the vulnerability is due to command injection, ensure that user inputs are not directly used in command execution without proper checks.\n\n```go\n// Example of input validation in Go\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\n// Usage\nerr := validateInput(userInput)\nif err != nil {\n    log.Fatal(err)\n}\n```\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\nThis vulnerability is related to [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)."
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-32687/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-686ce8b1-f72e-49bc-abb3-eb8855cf2759",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\nThe vulnerability CVE-2021-29477 affects the `oci/redis` package in the OSS programming language. This vulnerability is a result of improper input validation, which can lead to unauthorized access or manipulation of data. Specifically, the issue arises when user inputs are not correctly sanitized, allowing attackers to inject malicious commands or data into the Redis database.\n\n### General Mitigation Advice\n\n1. **Input Validation**: Ensure that all inputs are properly validated and sanitized before being processed. Use whitelisting techniques to allow only expected input formats.\n2. **Update Package**: Upgrade to the latest version of the `oci/redis` package where the vulnerability has been patched.\n3. **Access Controls**: Implement strict access controls to limit who can interact with the Redis database.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities or access patterns.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, ensure that all user inputs are sanitized before being used in Redis commands. Here is a general example of how you might sanitize inputs in a hypothetical function:\n\n```oss\nfunction sanitizeInput(input) {\n    // Example sanitization logic\n    return input.replace(/[^a-zA-Z0-9]/g, '');\n}\n\nfunction executeRedisCommand(command, input) {\n    const sanitizedInput = sanitizeInput(input);\n    // Proceed with executing the command using sanitized input\n    redisClient.execute(command, sanitizedInput);\n}\n```\n\n### Relevant OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-29477/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-6d6b3a09-926b-4690-b818-3f01d95bc9de",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\n**Vulnerability CVE-2024-31227** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is classified as a critical security flaw that allows unauthorized remote attackers to execute arbitrary code on the affected system. The issue arises from improper input validation in the Redis command processing logic, which can be exploited by sending specially crafted requests to the Redis server.\n\n### Mitigation Advice\n\n1. **Upgrade**: Immediately upgrade to the latest patched version of the `oci/redis` package. Check the official repository or package manager for the latest secure version.\n2. **Input Validation**: Implement strict input validation on all incoming data to ensure it conforms to expected formats and types.\n3. **Network Security**: Restrict access to the Redis server to trusted networks only. Use firewalls and network segmentation to limit exposure.\n4. **Authentication**: Enable Redis authentication to ensure that only authorized users can access the server.\n5. **Monitoring and Logging**: Implement comprehensive logging and monitoring to detect any suspicious activities or unauthorized access attempts.\n\n### Source Code Fix Recommendation\n\nReview the command processing logic in the Redis server code. Ensure that all inputs are properly sanitized and validated before processing. Consider using parameterized queries or prepared statements to prevent injection attacks. Here is a conceptual example of how input validation might be improved:\n\n```python\ndef process_command(command):\n    # Example of input validation\n    if not is_valid_command(command):\n        raise ValueError(\"Invalid command format\")\n    # Proceed with command processing\n    execute_command(command)\n\ndef is_valid_command(command):\n    # Implement validation logic\n    return isinstance(command, str) and command.isalnum()\n```\n\n### Relevant Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2024-31227/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-02070cc8-bca9-4a5e-8869-6759a7b5c50d",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\nThe vulnerability CVE-2021-32675 affects the `oci/redis` package in the OSS programming language. This vulnerability arises from improper input validation, which can lead to unauthorized access or manipulation of data. Specifically, the issue is related to how the package handles certain inputs, potentially allowing attackers to execute arbitrary commands or access sensitive information.\n\n### Mitigation Advice\n\nTo mitigate this vulnerability, it is recommended to:\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this issue.\n2. **Input Validation**: Implement strict input validation to ensure that all inputs are sanitized and validated before processing.\n3. **Access Controls**: Review and tighten access controls to limit who can interact with the Redis instance and what operations they can perform.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities that may indicate exploitation attempts.\n\n### Source Code Fix Recommendation\n\nIf you are maintaining a fork or a custom version of the `oci/redis` package, consider the following code fix:\n\n```go\n// Example of input validation\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\n// Usage in the application\nfunc processInput(input string) error {\n    if err := validateInput(input); err != nil {\n        return err\n    }\n    // Proceed with processing the input\n    return nil\n}\n```\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-32675/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-d09e3e5f-f27b-4cad-bb34-1b423f41809c",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2023-41053 is a vulnerability identified in the `oci/redis@latest` package, which is part of the Open Source Software (OSS) ecosystem. This vulnerability arises from improper input validation in the Redis package, potentially allowing an attacker to execute arbitrary code or cause a denial of service (DoS) condition. The issue is particularly concerning in environments where Redis is exposed to untrusted networks or users.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch to address this vulnerability.\n2. **Network Segmentation**: Limit exposure of Redis instances to trusted networks only. Use firewalls and network policies to restrict access.\n3. **Input Validation**: Implement strict input validation and sanitization to prevent malicious data from being processed by Redis.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities or attempts to exploit this vulnerability.\n\n### Source Code Fix Recommendation\nIf you are maintaining a fork or a custom version of the `oci/redis` package, consider implementing the following changes:\n- **Input Validation**: Add comprehensive input validation checks to ensure that all inputs are sanitized before being processed.\n- **Error Handling**: Implement robust error handling to gracefully manage unexpected inputs or states.\n\n### OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/): A list of the most critical security risks to web applications.\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): A collection of high-value information on specific application security topics.\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html): This CWE entry describes the general issue of improper input validation, which is relevant to CVE-2023-41053.\n\nPlease ensure that you verify the links and their accessibility for anonymous users.\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2023-41053/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-a75bd923-31c3-46ce-902b-779260fdfc62",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2023-45145 is a vulnerability identified in the `oci/redis@latest` package used in the OSS programming language. This vulnerability arises from improper input validation in the Redis command execution function, which can lead to unauthorized command execution. An attacker could exploit this vulnerability by sending specially crafted input to the Redis server, potentially leading to data manipulation or unauthorized access to sensitive information.\n\n### General Mitigation Advice\n1. **Input Validation**: Ensure that all inputs to the Redis commands are properly validated and sanitized. Implement strict input validation to prevent injection attacks.\n2. **Access Controls**: Restrict access to the Redis server to trusted users and networks only. Use authentication mechanisms to ensure that only authorized users can execute commands.\n3. **Update Package**: Regularly update the `oci/redis` package to the latest version where the vulnerability is patched.\n4. **Monitoring and Logging**: Implement monitoring and logging to detect any unusual activities or unauthorized access attempts.\n\n### Source Code Fix Recommendation\nTo mitigate this vulnerability, consider implementing the following code changes:\n\n```go\n// Example of input validation in Go\nfunc executeRedisCommand(command string, args ...interface{}) error {\n    // Validate command and arguments\n    if !isValidCommand(command) {\n        return fmt.Errorf(\"invalid command\")\n    }\n    for _, arg := range args {\n        if !isValidArgument(arg) {\n            return fmt.Errorf(\"invalid argument: %v\", arg)\n        }\n    }\n    // Proceed with command execution\n    // ...\n    return nil\n}\n\nfunc isValidCommand(command string) bool {\n    // Implement command validation logic\n    return true // Placeholder\n}\n\nfunc isValidArgument(arg interface{}) bool {\n    // Implement argument validation logic\n    return true // Placeholder\n}\n```\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2023-45145/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-064b97b4-cb9f-4060-8196-4f2de25c8ab6",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nThe vulnerability CVE-2022-24735 in the `oci/redis@latest` package pertains to an issue in the Open Source Software (OSS) programming language ecosystem. This vulnerability arises from improper input validation, which can lead to unauthorized access or manipulation of data within the Redis database. Specifically, the flaw allows attackers to exploit the system by sending specially crafted requests that bypass authentication mechanisms or execute arbitrary commands.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n2. **Input Validation**: Implement strict input validation to ensure that all incoming data is sanitized and validated before processing.\n3. **Access Controls**: Strengthen access controls by using strong authentication and authorization mechanisms to limit access to the Redis database.\n4. **Network Security**: Use network security measures such as firewalls and VPNs to restrict access to the Redis server from untrusted networks.\n5. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any suspicious activities or unauthorized access attempts.\n\n### Source Code Fix Recommendation\nReview the code handling input data and ensure that all inputs are properly validated and sanitized. Consider using parameterized queries or prepared statements to prevent injection attacks. Additionally, review the authentication logic to ensure it is robust and cannot be bypassed.\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n- [CWE-89: SQL Injection](https://cwe.mitre.org/data/definitions/89.html)\n\nPlease ensure to verify the links for accessibility and validity.\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-24735/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-91401f17-a546-4335-b81e-3938b2026e69",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\nThe vulnerability CVE-2021-32628 affects the `oci/redis` package in the OSS programming language. This vulnerability arises from improper input validation, which can lead to potential security risks such as unauthorized access or data manipulation. Specifically, the issue is related to how the package handles certain inputs, allowing attackers to exploit this flaw to execute arbitrary commands or access sensitive data.\n\n### Mitigation Advice\n\nTo mitigate this vulnerability, it is recommended to:\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this issue.\n2. **Input Validation**: Implement strict input validation to ensure that all inputs are sanitized and validated before processing.\n3. **Access Controls**: Review and tighten access controls to limit the exposure of the vulnerable component.\n4. **Monitor and Audit**: Regularly monitor and audit your systems for any unusual activity that could indicate exploitation attempts.\n\n### Source Code Fix Recommendation\n\nIf you are maintaining a fork or a custom version of the `oci/redis` package, consider the following code fix:\n\n```go\n// Example of input validation\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\n// Usage\nerr := validateInput(userInput)\nif err != nil {\n    log.Fatal(err)\n}\n```\n\nEnsure that all inputs are validated using similar logic to prevent malicious data from being processed.\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\nThis vulnerability is related to [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)."
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-32628/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-77d6fb1a-a9ea-437e-88a2-466b57b8657e",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2022-0543 is a critical vulnerability found in the Redis package, specifically in the `oci/redis@latest` version. This vulnerability arises from an improper sandbox escape in the Lua scripting engine used by Redis. An attacker with the ability to execute Lua scripts on the Redis server can exploit this vulnerability to execute arbitrary code on the host system. This can lead to unauthorized access, data exfiltration, or further compromise of the system.\n\n### General Mitigation Advice\n1. **Update Redis**: Ensure that you are using the latest version of Redis where this vulnerability has been patched. Regularly check for updates and apply them promptly.\n2. **Restrict Access**: Limit access to the Redis server to trusted networks and users only. Use firewall rules to restrict access to the Redis port (default 6379).\n3. **Authentication**: Enable Redis authentication to prevent unauthorized access. Use strong, complex passwords.\n4. **Disable Lua Scripts**: If Lua scripting is not required, consider disabling it to reduce the attack surface.\n5. **Network Segmentation**: Place Redis servers in a separate network segment and use network security controls to monitor and restrict traffic.\n\n### Source Code Fix Recommendation\nThe primary fix for this vulnerability involves updating the Redis package to a version where the vulnerability has been addressed. If you maintain a fork or custom version of Redis, ensure that the Lua sandboxing mechanism is properly implemented to prevent escape.\n\n### OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-94: Improper Control of Generation of Code ('Code Injection')](https://cwe.mitre.org/data/definitions/94.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-0543/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-75251662-7986-4394-964b-4821ffdd40d1",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\nThe vulnerability CVE-2021-32626 affects the `oci/redis` package in the OSS programming language. This vulnerability arises from improper input validation, which can lead to unauthorized access or manipulation of data. Specifically, the issue is related to how the package handles certain types of input, potentially allowing attackers to execute arbitrary commands or access sensitive information.\n\n### Mitigation Advice\n\nTo mitigate this vulnerability, it is recommended to:\n\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch to address this issue.\n2. **Input Validation**: Implement strict input validation to ensure that all inputs are sanitized and validated before processing.\n3. **Access Controls**: Review and tighten access controls to limit who can interact with the Redis instance.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities that may indicate exploitation attempts.\n\n### Source Code Fix Recommendation\n\nIf you are maintaining a fork or a custom version of the `oci/redis` package, consider implementing the following changes:\n\n- **Sanitize Inputs**: Ensure that all inputs are properly sanitized to prevent injection attacks.\n- **Validate Commands**: Implement checks to validate commands before they are executed, ensuring they conform to expected patterns and do not contain malicious payloads.\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\nThis vulnerability is related to [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html).\n\nPlease ensure to verify the links for accessibility and validity as they may change over time."
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-32626/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-90bf7761-caac-4f17-8f70-4684e4d02ebc",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\n**Vulnerability CVE-2024-51741** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is a result of improper input validation in the Redis command execution module, which can lead to remote code execution (RCE) if an attacker is able to inject malicious commands through unsanitized input fields. The vulnerability arises from the failure to properly escape or validate user inputs before they are processed by the Redis server.\n\n### General Mitigation Advice\n\n1. **Input Validation**: Ensure that all inputs are properly validated and sanitized before being processed. Use allowlists to define acceptable input formats and reject any input that does not conform to these formats.\n\n2. **Update Package**: Regularly update the `oci/redis` package to the latest version, as the maintainers may release patches that address this vulnerability.\n\n3. **Least Privilege Principle**: Run Redis with the least privileges necessary and ensure that it is not exposed directly to the internet. Use firewalls and network segmentation to limit access.\n\n4. **Security Monitoring**: Implement security monitoring to detect and respond to any suspicious activities or anomalies in the system.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, ensure that all user inputs are properly escaped or validated before being passed to Redis commands. Here is a general example of how you might sanitize inputs in a hypothetical function:\n\n```go\npackage main\n\nimport (\n    \"regexp\"\n    \"errors\"\n)\n\n// SanitizeInput ensures that the input only contains alphanumeric characters\nfunc SanitizeInput(input string) (string, error) {\n    // Define a regex pattern for allowed characters\n    var validInputPattern = regexp.MustCompile(`^[a-zA-Z0-9]+$`)\n    \n    if !validInputPattern.MatchString(input) {\n        return \"\", errors.New(\"invalid input: only alphanumeric characters are allowed\")\n    }\n    \n    return input, nil\n}\n\n// Example usage\nfunc main() {\n    userInput := \"exampleInput123\"\n    sanitizedInput, err := SanitizeInput(userInput)\n    if err != nil {\n        // Handle error\n        panic(err)\n    }\n    \n    // Proceed with using sanitizedInput\n}\n```\n\n### Relevant OWASP Resources\n\n- [OWASP Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2024-51741/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-88b20813-afaf-4714-8e72-3e0550904270",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\n**Vulnerability CVE-2024-46981** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is a result of improper input validation in the Redis command execution module, which can lead to remote code execution (RCE) if exploited. An attacker can craft a malicious payload that bypasses existing security checks, allowing them to execute arbitrary commands on the server hosting the Redis instance.\n\n### General Mitigation Advice\n\n1. **Input Validation**: Ensure that all inputs are properly validated and sanitized before processing. Implement strict input validation rules to prevent malicious data from being executed.\n\n2. **Update Package**: Regularly update the `oci/redis` package to the latest version, as security patches are often released to address known vulnerabilities.\n\n3. **Access Controls**: Implement strict access controls to limit who can send commands to the Redis server. Use authentication and authorization mechanisms to restrict access.\n\n4. **Network Security**: Use firewalls and network segmentation to protect the Redis server from unauthorized access. Only allow trusted IP addresses to communicate with the server.\n\n5. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any suspicious activities or attempts to exploit the vulnerability.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, ensure that the Redis command execution module includes comprehensive input validation. Here is a conceptual example of how you might implement input validation:\n\n```python\ndef execute_redis_command(command):\n    # Define a whitelist of allowed commands\n    allowed_commands = ['GET', 'SET', 'DEL', 'EXISTS']\n    \n    # Split the command to extract the command name\n    command_name = command.split()[0].upper()\n    \n    # Validate the command against the whitelist\n    if command_name not in allowed_commands:\n        raise ValueError(\"Invalid command\")\n    \n    # Proceed with command execution\n    # (Assuming `redis_client` is an instance of the Redis client)\n    return redis_client.execute_command(command)\n```\n\n### Relevant OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2024-46981/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-0e7a95b4-0e5e-40dc-91f1-5eb22abe6d93",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\n**Vulnerability CVE-2025-21605** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is classified as a **Remote Code Execution (RCE)** flaw, which allows an attacker to execute arbitrary code on the server where the vulnerable package is deployed. The issue arises due to improper input validation in the Redis command processing logic, which can be exploited by sending specially crafted requests to the Redis server.\n\n### General Mitigation Advice\n\n1. **Upgrade**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released a patch to address this vulnerability.\n2. **Input Validation**: Implement strict input validation to ensure that only expected and safe data is processed by the Redis server.\n3. **Network Security**: Restrict access to the Redis server to trusted networks and use firewalls to block unauthorized access.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any suspicious activities or attempts to exploit this vulnerability.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, consider the following code fix:\n\n```go\n// Example of input validation in Redis command processing\nfunc processRedisCommand(command string) error {\n    // Validate command length\n    if len(command) > MAX_COMMAND_LENGTH {\n        return errors.New(\"command too long\")\n    }\n\n    // Validate command format\n    if !isValidCommandFormat(command) {\n        return errors.New(\"invalid command format\")\n    }\n\n    // Process the command\n    // ...\n    return nil\n}\n\nfunc isValidCommandFormat(command string) bool {\n    // Implement logic to validate command format\n    // For example, check for allowed characters, structure, etc.\n    return true\n}\n```\n\n### Relevant OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n- [CWE-94: Improper Control of Generation of Code ('Code Injection')](https://cwe.mitre.org/data/definitions/94.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2025-21605/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-685b6918-5348-46ac-ace7-7b6918082f2c",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2022-24834 is a vulnerability identified in the `oci/redis` package, which is a part of the Open Source Software (OSS) ecosystem. This vulnerability arises due to improper input validation, which can lead to potential security risks such as unauthorized access or data manipulation. The flaw allows attackers to exploit the system by sending specially crafted requests that bypass security controls.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package where the vulnerability has been patched.\n2. **Input Validation**: Implement strict input validation to ensure that all incoming data is sanitized and validated before processing.\n3. **Access Controls**: Strengthen access controls to limit the exposure of the vulnerable component to untrusted networks.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities that may indicate exploitation attempts.\n\n### Source Code Fix Recommendation\nTo address this vulnerability, review the input handling logic in your application. Ensure that all inputs are properly validated and sanitized. Here is a general example of how you might improve input validation:\n\n```go\n// Example of improved input validation\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    if !isValidFormat(input) {\n        return errors.New(\"input format is invalid\")\n    }\n    return nil\n}\n\nfunc isValidFormat(input string) bool {\n    // Implement specific format checks\n    return true\n}\n```\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-24834/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-e0313ad3-8459-4a6c-ad98-5725465e937e",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2022-36021 is a vulnerability identified in the `oci/redis` package, which is part of the Open Source Software (OSS) ecosystem. This vulnerability arises due to improper input validation, which can lead to potential security risks such as unauthorized access or data manipulation. The flaw allows attackers to exploit the system by sending specially crafted requests that bypass existing security controls.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n2. **Input Validation**: Implement robust input validation to ensure that all incoming data is sanitized and validated before processing.\n3. **Access Controls**: Strengthen access controls to limit the exposure of sensitive functionalities to unauthorized users.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any suspicious activities that may indicate exploitation attempts.\n\n### Source Code Fix Recommendation\nTo address the vulnerability, consider the following code changes:\n\n```go\n// Example of input validation\nfunc validateInput(input string) error {\n    if len(input) == 0 {\n        return errors.New(\"input cannot be empty\")\n    }\n    // Add more validation rules as necessary\n    return nil\n}\n\n// Usage in the application\nfunc processRequest(input string) error {\n    if err := validateInput(input); err != nil {\n        return err\n    }\n    // Proceed with processing the request\n    return nil\n}\n```\n\n### Relevant OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-36021/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-fe915ebc-0084-45f9-abe6-1736258b7b21",
+              "help": {
+                "text": "",
+                "markdown": "### Description\n\n**Vulnerability CVE-2022-3704** affects the `pkg gem/rails@8.0.2` in the OSS programming language. This vulnerability is a security flaw that could potentially allow an attacker to exploit the application, leading to unauthorized access or data exposure. The specific details of the vulnerability involve improper input validation, which can be leveraged to perform actions that are not intended by the application developers.\n\n### General Mitigation Advice\n\n1. **Upgrade**: The most effective mitigation is to upgrade to a version of the `rails` gem where this vulnerability is patched. Check the official Rails repository or security advisories for the latest secure version.\n\n2. **Input Validation**: Implement strict input validation to ensure that all user inputs are sanitized and validated before processing. This can prevent malicious data from being executed.\n\n3. **Access Controls**: Review and strengthen access controls to ensure that only authorized users can perform sensitive operations.\n\n4. **Monitoring and Logging**: Implement comprehensive logging and monitoring to detect any unusual activities that might indicate an attempted exploitation of the vulnerability.\n\n### Source Code Fix Recommendation\n\nTo address the vulnerability, consider the following code changes:\n\n```ruby\n# Before fix\ndef process_user_input(input)\n  # Vulnerable code that does not validate input\n  execute_command(input)\nend\n\n# After fix\ndef process_user_input(input)\n  # Validate and sanitize input\n  sanitized_input = sanitize(input)\n  if valid_input?(sanitized_input)\n    execute_command(sanitized_input)\n  else\n    raise \"Invalid input\"\n  end\nend\n\ndef sanitize(input)\n  # Implement sanitization logic\nend\n\ndef valid_input?(input)\n  # Implement validation logic\nend\n```\n\n### OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n\nThese resources provide further guidance on secure coding practices and common security weaknesses."
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-3704/pkg:gem/rails@8.0.2"
+                ]
+              }
+            },
+            {
+              "id": "glog-cc830551-4e67-4aea-8698-9acc14fddd00",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nThe vulnerability identified as CVE-2022-3734 in the `oci/redis@latest` package pertains to an issue in the Open Source Software (OSS) programming language. This vulnerability allows for potential unauthorized access or manipulation of data due to improper input validation. An attacker could exploit this vulnerability by sending specially crafted requests to the Redis server, leading to potential data breaches or service disruptions.\n\n### General Mitigation Advice\n1. **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n2. **Input Validation**: Implement strict input validation to ensure that all data sent to the Redis server is sanitized and verified.\n3. **Access Controls**: Restrict access to the Redis server to only trusted networks and users. Use authentication mechanisms to prevent unauthorized access.\n4. **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities or access patterns that could indicate an exploitation attempt.\n\n### Source Code Fix Recommendation\nReview the code interacting with the Redis server and ensure that all inputs are properly validated and sanitized. Consider using parameterized queries or prepared statements to prevent injection attacks. Additionally, apply any patches or updates provided by the package maintainers.\n\n### OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2022-3734/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-b62b17f9-6871-4193-b88f-a30a3f3b710d",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\n\n**Vulnerability CVE-2019-10193** affects the `oci/redis@latest` package in the OSS programming language. This vulnerability is related to improper input validation, which can lead to unauthorized access or execution of arbitrary commands. The issue arises when user inputs are not properly sanitized before being processed by the application, potentially allowing attackers to inject malicious commands or access sensitive data.\n\n### General Mitigation Advice\n\n1. **Input Validation**: Ensure all user inputs are validated and sanitized. Use whitelisting techniques to allow only expected input formats.\n2. **Least Privilege**: Run applications with the least privileges necessary to limit the impact of a potential exploit.\n3. **Regular Updates**: Keep all dependencies and packages up to date to incorporate security patches and improvements.\n4. **Security Audits**: Regularly perform security audits and code reviews to identify and fix vulnerabilities.\n\n### Source Code Fix Recommendation\n\nTo address this vulnerability, review the code handling user inputs and ensure proper validation and sanitization. For example, if the vulnerability is due to command injection, consider using parameterized queries or prepared statements to prevent injection attacks.\n\n```python\n# Example of input validation in Python\ndef sanitize_input(user_input):\n    # Implement input validation logic\n    if not isinstance(user_input, str) or not user_input.isalnum():\n        raise ValueError(\"Invalid input\")\n    return user_input\n\n# Usage\nuser_input = get_user_input()\nsafe_input = sanitize_input(user_input)\n```\n\n### Relevant OWASP Resources\n\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)\n\n### Common Weakness Enumeration (CWE)\n\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2019-10193/pkg:oci/redis@latest?"
+                ]
+              }
+            },
+            {
+              "id": "glog-1e707fe6-21f2-4488-aee7-05850de039a2",
+              "help": {
+                "text": "",
+                "markdown": "```markdown\n### Description\nCVE-2021-32627 is a vulnerability identified in the `oci/redis` package, which is a part of the Open Source Software (OSS) ecosystem. This vulnerability arises due to improper input validation, which can lead to potential security risks such as unauthorized access or data manipulation. The issue is particularly concerning in environments where the package is used to manage Redis instances, as it could allow attackers to exploit the vulnerability to execute arbitrary commands or access sensitive data.\n\n### General Mitigation Advice\nTo mitigate the risks associated with CVE-2021-32627, consider the following steps:\n- **Update the Package**: Ensure that you are using the latest version of the `oci/redis` package, as the maintainers may have released patches to address this vulnerability.\n- **Input Validation**: Implement robust input validation to ensure that all inputs are sanitized and validated before processing.\n- **Access Controls**: Restrict access to Redis instances and ensure that only authorized users have the necessary permissions.\n- **Monitoring and Logging**: Enable detailed logging and monitoring to detect any unusual activities that may indicate an exploitation attempt.\n\n### Source Code Fix Recommendation\nReview the source code for any areas where input is accepted and processed. Ensure that all inputs are properly validated and sanitized. Consider using libraries or frameworks that provide built-in protection against common vulnerabilities.\n\n### OWASP Resources\n- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)\n- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)\n\n### Common Weakness Enumeration (CWE)\n- [CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)\n```"
+              },
+              "properties": {
+                "tags": [
+                  "CVE-2021-32627/pkg:oci/redis@latest?"
                 ]
               }
             }
@@ -805,9 +1199,9 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "glog-90d4d4b3-11a7-453c-9c65-3b467e5557d7",
+          "ruleId": "glog-4d6548dd-adbc-48c0-88d5-88cb32656074",
           "kind": "fail",
-          "level": "warning",
+          "level": "error",
           "message": {
             "text": "Possible command injection."
           },
@@ -815,18 +1209,18 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/logical/exif_tool.rb",
+                  "uri": "app/jobs/amcheck_database_job.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 30
+                  "startLine": 12
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-82cd08f5-729a-41cd-aa26-505b0ff04760",
+          "ruleId": "glog-8b0ac331-7fa3-408a-9d44-695d20387f88",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -847,7 +1241,7 @@
           ]
         },
         {
-          "ruleId": "glog-9cea428f-66ac-4a49-8ac2-01656162f4a0",
+          "ruleId": "glog-3a9b7a0b-96dc-4248-b8e6-ff1a60fffab0",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -857,39 +1251,18 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/logical/media_file/ugoira.rb",
+                  "uri": "app/logical/exif_tool.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 355
+                  "startLine": 30
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-ab3793ff-b726-4074-9100-1cded101276c",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/components/paginator_component.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 40
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-0d600e30-ad94-4eeb-a434-643069fc3878",
+          "ruleId": "glog-81df32ff-eac9-429a-b0d7-17845e20eb71",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -910,28 +1283,28 @@
           ]
         },
         {
-          "ruleId": "glog-ae45e96f-2509-4d2b-9aba-bff6a6471927",
+          "ruleId": "glog-1789d541-776d-4f51-bfc4-c8ec1f0437f3",
           "kind": "fail",
-          "level": "error",
+          "level": "warning",
           "message": {
-            "text": "User controlled method execution."
+            "text": "Possible command injection."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/controllers/pool_versions_controller.rb",
+                  "uri": "app/logical/media_file/ugoira.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 27
+                  "startLine": 355
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-96ccf889-4f75-411d-8401-3d8e43a25c85",
+          "ruleId": "glog-f3f92dff-8006-4eb5-8f90-f4af0436bf9a",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -952,7 +1325,49 @@
           ]
         },
         {
-          "ruleId": "glog-9526a779-f415-41c2-8fc1-e150a1df54b8",
+          "ruleId": "glog-5cd840ee-21eb-4686-8336-4f827e323fd4",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/components/paginator_component.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-1ecc9cc7-dee1-420e-9378-28fb87cf189d",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/pool_versions_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-9be08e90-7925-498b-bea9-b05dcbd53ece",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -973,91 +1388,7 @@
           ]
         },
         {
-          "ruleId": "glog-4e882b0e-42eb-40f4-82b9-2fd6d3cce315",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Model attribute used in regular expression."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/logical/bulk_update_request_processor.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 49
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-a07d7107-3a4a-4457-af8b-9d5d7e75e6a3",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Model attribute used in file name."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/controllers/media_assets_controller.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 31
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-1d7ef03b-ebaa-4aac-b470-0d42ca24e915",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/models/rate_limit.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 77
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-26d72b6d-bcb2-4dc5-a2c3-c5b9ca71642b",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "User controlled method execution."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/helpers/artist_commentary_versions_helper.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 5
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-fe673e13-fc4c-4708-a865-deef602766e6",
+          "ruleId": "glog-e4ab1be3-0f0d-4ee1-a669-e16a35478328",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -1078,112 +1409,49 @@
           ]
         },
         {
-          "ruleId": "glog-35eee2b7-b3d8-4f22-bee0-251f7df11270",
+          "ruleId": "glog-c7d43886-7a2b-4282-a879-dea2b91b9135",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "User controlled method execution."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/helpers/artist_commentary_versions_helper.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-9993c4c3-eeec-460c-ab78-1b39a3e534e7",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Possible SQL injection."
+            "text": "Model attribute used in regular expression."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/logical/concerns/searchable.rb",
+                  "uri": "app/logical/bulk_update_request_processor.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 99
+                  "startLine": 49
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-64527a2d-7052-4d17-afe7-44b37fc6edb0",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/logical/concerns/searchable.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 103
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-bd5a1987-e6f4-4814-8dba-819045842340",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/logical/concerns/aggregatable.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 59
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-808bc9f0-e1bf-49bf-a8f7-0ec636562476",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/logical/concerns/searchable.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 122
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-569babf4-f835-4199-a142-a0e7ad6de682",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/logical/concerns/searchable.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 131
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-6d6b914e-5fb6-4dd5-a8d6-c6d3b3392ff1",
+          "ruleId": "glog-02f933e7-88b9-4710-9a5c-c638ae789a54",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1204,7 +1472,49 @@
           ]
         },
         {
-          "ruleId": "glog-72501bf8-6f34-480d-a267-247313e3d69c",
+          "ruleId": "glog-6a0fa0b1-0840-437d-b32f-3629233c6271",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/rate_limit.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 77
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-81533052-cb4f-41c3-8f9c-a0bc2651ee7d",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/concerns/aggregatable.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 59
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-7933c680-77c9-489a-9e1b-e49abc6ed168",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1218,14 +1528,35 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 159
+                  "startLine": 103
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-cbcba5ac-63e8-4807-87f4-8b1dd9133dbc",
+          "ruleId": "glog-7ce257dc-8187-4599-9e30-2796ac8ebbbb",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Model attribute used in file name."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/controllers/media_assets_controller.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-9d6a7e7f-1e19-4bb4-9954-1c071e14c93b",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1246,7 +1577,7 @@
           ]
         },
         {
-          "ruleId": "glog-d421ae00-37d9-4db6-be3a-fde85db681a5",
+          "ruleId": "glog-9654192f-1cf1-452a-90e3-7db56d27a4ac",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1260,16 +1591,16 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 204
+                  "startLine": 122
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-fe12e094-bf22-4ee9-9457-ab3166cbc07d",
+          "ruleId": "glog-cf26c869-bd49-413b-9590-ea3f2a1e3360",
           "kind": "fail",
-          "level": "note",
+          "level": "warning",
           "message": {
             "text": "Possible SQL injection."
           },
@@ -1281,35 +1612,14 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 701
+                  "startLine": 131
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-35797cfa-a5c0-46b6-b42b-72376b35ea9e",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/controllers/pool_versions_controller.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 34
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-17088e6b-f2ba-4ab0-9f08-f6e11c3289b9",
+          "ruleId": "glog-819cb450-bf4e-4571-bd83-21286e6015cd",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1330,7 +1640,7 @@
           ]
         },
         {
-          "ruleId": "glog-8ac85577-11c1-4627-be0d-3148eab9a1bd",
+          "ruleId": "glog-578e5e24-4826-4203-a267-837ecded0be5",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1340,18 +1650,18 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/controllers/users_controller.rb",
+                  "uri": "app/logical/concerns/searchable.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 140
+                  "startLine": 204
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-417e0ee4-c4fc-46ee-9533-02e5e616b605",
+          "ruleId": "glog-3762fe23-28df-41f0-b13d-cc3556306eb0",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1361,20 +1671,20 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/models/application_record.rb",
+                  "uri": "app/logical/concerns/searchable.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 140
+                  "startLine": 159
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-8177ab5e-5f7f-4589-8b93-d1a1cd73cf1c",
+          "ruleId": "glog-e8c8c7a1-d396-4c69-b015-ecf1bac60108",
           "kind": "fail",
-          "level": "warning",
+          "level": "note",
           "message": {
             "text": "Possible SQL injection."
           },
@@ -1382,18 +1692,18 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/models/application_record.rb",
+                  "uri": "app/logical/concerns/searchable.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 143
+                  "startLine": 701
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-d6e03a47-43b7-4884-a6ac-fdb7c2907b0a",
+          "ruleId": "glog-1748dddd-b05c-416f-a244-365e92993e95",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1414,7 +1724,7 @@
           ]
         },
         {
-          "ruleId": "glog-6c502779-d185-403b-aa7a-9647dd15e6e7",
+          "ruleId": "glog-275ed18f-85a1-4680-ae6a-0bed614ef7dc",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1424,18 +1734,18 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/models/application_record.rb",
+                  "uri": "app/logical/concerns/searchable.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 154
+                  "startLine": 99
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-de571e49-e3be-4539-bc49-126a72768849",
+          "ruleId": "glog-1f168057-d072-4a65-8d7b-c0cf1eff0955",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1445,123 +1755,18 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/logical/session_loader.rb",
+                  "uri": "app/controllers/users_controller.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 189
+                  "startLine": 140
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-b3cef229-cf4a-4592-9956-01e3d6655521",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/models/application_record.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 160
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-a4ad924e-d91c-47e5-ad74-94207e303211",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/models/application_record.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 150
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-a710b428-7f44-4f85-a5b0-fed2eb25417d",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Possible SQL injection."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/logical/explain_parser.rb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 37
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-26b72be8-04d6-44ef-81f4-584fe224a0f7",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Unescaped model attribute."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/views/forum_topics/index.html.erb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 17
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-0b48d665-4f30-4cd4-a7c3-d70c11d2d6bd",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Unescaped model attribute."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/views/totp/edit.html.erb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 28
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-98526c6d-93fb-4ccf-a993-a2375e7030a4",
+          "ruleId": "glog-594d80fe-87b2-4e3a-b459-a39a50d8618a",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1582,49 +1787,133 @@
           ]
         },
         {
-          "ruleId": "glog-aa2801c9-e0ea-4140-9413-1344371b4c75",
-          "kind": "fail",
-          "level": "error",
-          "message": {
-            "text": "Unsafe parameter value in `link_to` href."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "app/views/backup_codes/index.html.erb",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 46
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "glog-30c43207-bd1e-4edf-8ec9-9684bcd1ea34",
+          "ruleId": "glog-8295ef45-69d6-4adb-a7d6-6e92c62a6ec7",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+            "text": "Possible SQL injection."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/views/comments/index.html.erb",
+                  "uri": "app/controllers/pool_versions_controller.rb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 3
+                  "startLine": 34
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-bf33969f-8475-435a-abe9-acb3a440bc03",
+          "ruleId": "glog-c90fbbc4-4213-406a-ba2d-7dc5582d4108",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 140
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-96b426c4-6e6e-4fa0-bd08-a451258d932b",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 154
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-99c937ed-7d72-4e6d-a1c8-98bc32d5e043",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 143
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-eac60399-68c9-45f9-8a17-b08440acc5a7",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/session_loader.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 189
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-2aad3b10-93e0-4af3-a348-4571b48ac254",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 150
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-68dc126c-40a7-42a2-a36b-57d0d0fa98fd",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1645,7 +1934,7 @@
           ]
         },
         {
-          "ruleId": "glog-727620df-a8fa-406d-b100-ce8fa111bbae",
+          "ruleId": "glog-c3b89239-c50d-4ad8-9baa-b472879de1e1",
           "kind": "fail",
           "level": "note",
           "message": {
@@ -1655,18 +1944,60 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/views/user_name_change_requests/new.html.erb",
+                  "uri": "app/views/forum_topics/index.html.erb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 16
+                  "startLine": 17
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-8c7e82b8-5886-491b-a675-3e87cb936aff",
+          "ruleId": "glog-dc86c7ef-7703-4ab8-80d1-c3d33ee0400f",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/logical/explain_parser.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 37
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-1809ab9d-7789-443e-a9e0-fc18dbd63c83",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/application_record.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 160
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-b6856e80-8547-4e8d-ae08-4abec4fdfc12",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1687,49 +2018,70 @@
           ]
         },
         {
-          "ruleId": "glog-f5c165e8-c78e-4003-a695-81079040af14",
+          "ruleId": "glog-b3e6df62-33d3-40ee-98bc-4a8b71cfb82c",
           "kind": "fail",
-          "level": "error",
+          "level": "note",
           "message": {
-            "text": "Insufficient validation for `source` using `/\\Ahttps?:\\/\\//i`. Use `\\A` and `\\z` as anchors."
+            "text": "Unescaped model attribute."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/models/upload.rb",
+                  "uri": "app/views/user_name_change_requests/new.html.erb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 25
+                  "startLine": 16
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-f3515a0c-ee7c-4a57-99bb-fb8466cc1b85",
+          "ruleId": "glog-60ca3145-7047-45d4-a4db-c1083bfe3f78",
           "kind": "fail",
           "level": "error",
           "message": {
-            "text": "Insufficient validation for `referer_url` using `/\\Ahttps?:\\/\\//i`. Use `\\A` and `\\z` as anchors."
+            "text": "Unsafe parameter value in `link_to` href."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "app/models/upload.rb",
+                  "uri": "app/views/backup_codes/index.html.erb",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 26
+                  "startLine": 46
                 }
               }
             }
           ]
         },
         {
-          "ruleId": "glog-eb685e5a-271c-4388-986d-0bba43848ed2",
+          "ruleId": "glog-6f8221ad-d231-4207-9aa1-85cf12e10547",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Unescaped model attribute."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/totp/edit.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-87d838f2-6743-4752-be3d-29e3f37a5f5d",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -1750,7 +2102,28 @@
           ]
         },
         {
-          "ruleId": "glog-f584be03-f69a-4608-8daa-5a8c78be3d26",
+          "ruleId": "glog-dc0523ef-c0fc-475e-8bc5-859b7e2ec886",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `source` using `/\\Ahttps?:\\/\\//i`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/upload.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 25
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-f1101eb0-9404-45a9-ae18-998840b658a4",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -1771,7 +2144,49 @@
           ]
         },
         {
-          "ruleId": "glog-9955989d-ed61-4409-adc7-2d3f709298ea",
+          "ruleId": "glog-be729087-f037-4ab3-bf79-441ec12b0332",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Insufficient validation for `referer_url` using `/\\Ahttps?:\\/\\//i`. Use `\\A` and `\\z` as anchors."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/models/upload.rb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 26
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-d08df9eb-8593-4e51-b0da-7232ca8edcfe",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Specify exact keys allowed for mass assignment instead of using `permit!` which allows any keys."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "app/views/comments/index.html.erb",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-92a58b33-d5ac-417a-bc07-aa6855b41a7c",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -1787,6 +2202,726 @@
                 "region": {
                   "startLine": 17
                 }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-25634328-aaae-4a4a-82ba-1868cd70c888",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability CVE-2025-5889 in pkg npm/brace-expansion@1.1.11"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2025-5889 in pkg npm/brace-expansion@1.1.11"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-e8e9ce2b-0b8b-488f-aa52-dedc837a7fd2",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2024-31228 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2024-31228 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-84574e3f-842b-4e26-a585-0b294bb9ea53",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-41099 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-41099 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-4dce75c2-ce1d-4600-ba10-07543bbf3ec4",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2023-41056 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2023-41056 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-508d7be6-d745-4626-a5fd-b7d59703a172",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2022-35977 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-35977 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-01970c8f-2766-42d3-94bb-426484545ebb",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2023-25155 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2023-25155 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-191ccf1b-bdec-46b5-a6c2-f0327a79ea91",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2024-31449 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2024-31449 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-00d89cd2-605f-4a9e-ad21-963619996bba",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2023-22458 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2023-22458 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-27c68dd1-e734-44aa-9416-2bd02414d53b",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2023-28856 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2023-28856 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-2e90081b-3007-4cee-bbf9-5c7660856361",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability CVE-2022-24736 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-24736 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-65e57cad-7ea5-443b-b25a-2c1cfd4a71a4",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2019-10192 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2019-10192 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-2134d96f-aebb-42f6-8a89-9d406ec8be6d",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-32687 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-32687 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-686ce8b1-f72e-49bc-abb3-eb8855cf2759",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-29477 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-29477 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-6d6b3a09-926b-4690-b818-3f01d95bc9de",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2024-31227 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2024-31227 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-02070cc8-bca9-4a5e-8869-6759a7b5c50d",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-32675 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-32675 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-d09e3e5f-f27b-4cad-bb34-1b423f41809c",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability CVE-2023-41053 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2023-41053 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-a75bd923-31c3-46ce-902b-779260fdfc62",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability CVE-2023-45145 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2023-45145 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-064b97b4-cb9f-4060-8196-4f2de25c8ab6",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability CVE-2022-24735 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-24735 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-91401f17-a546-4335-b81e-3938b2026e69",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-32628 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-32628 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-77d6fb1a-a9ea-437e-88a2-466b57b8657e",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2022-0543 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-0543 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-75251662-7986-4394-964b-4821ffdd40d1",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-32626 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-32626 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-90bf7761-caac-4f17-8f70-4684e4d02ebc",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2024-51741 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2024-51741 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-88b20813-afaf-4714-8e72-3e0550904270",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2024-46981 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2024-46981 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-0e7a95b4-0e5e-40dc-91f1-5eb22abe6d93",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2025-21605 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2025-21605 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-685b6918-5348-46ac-ace7-7b6918082f2c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2022-24834 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-24834 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-e0313ad3-8459-4a6c-ad98-5725465e937e",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2022-36021 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-36021 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-fe915ebc-0084-45f9-abe6-1736258b7b21",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Vulnerability CVE-2022-3704 in pkg gem/rails@8.0.2"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-3704 in pkg gem/rails@8.0.2"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-cc830551-4e67-4aea-8698-9acc14fddd00",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Vulnerability CVE-2022-3734 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2022-3734 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-b62b17f9-6871-4193-b88f-a30a3f3b710d",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2019-10193 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2019-10193 in pkg oci/redis@latest?"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "glog-1e707fe6-21f2-4488-aee7-05850de039a2",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "Vulnerability CVE-2021-32627 in pkg oci/redis@latest?"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lockfile",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              },
+              "message": {
+                "text": "Vulnerability CVE-2021-32627 in pkg oci/redis@latest?"
               }
             }
           ]
